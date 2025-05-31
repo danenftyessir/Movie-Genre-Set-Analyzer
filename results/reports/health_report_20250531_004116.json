@@ -1,0 +1,106 @@
+{
+  "timestamp": "2025-05-31T00:41:16.060720",
+  "overall_health": "critical",
+  "monitoring_enabled": true,
+  "system_initialized": false,
+  "data_validation_passed": false,
+  "similarity_system_ready": false,
+  "knn_system_ready": false,
+  "diversity_system_ready": false,
+  "metrics": {
+    "data_duplicate_ratio": {
+      "value": 0.0,
+      "unit": "ratio",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "missing_value_ratio": {
+      "value": 1.0,
+      "unit": "ratio",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "referential_integrity": {
+      "value": 0.0,
+      "unit": "score",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "similarity_variance": {
+      "value": 0.0,
+      "unit": "variance",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "perfect_similarity_ratio": {
+      "value": 0.0,
+      "unit": "ratio",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "similarity_uniqueness": {
+      "value": 0.0,
+      "unit": "ratio",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "problem_cluster_ratio": {
+      "value": 0.0,
+      "unit": "ratio",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "recommendation_diversity": {
+      "value": 0.0,
+      "unit": "score",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "popularity_bias": {
+      "value": 0.0,
+      "unit": "score",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "novelty_score": {
+      "value": 0.0,
+      "unit": "score",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "recommendation_latency": {
+      "value": 0.0,
+      "unit": "seconds",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "cache_hit_rate": {
+      "value": 0.0,
+      "unit": "ratio",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    },
+    "system_error_rate": {
+      "value": 0.0,
+      "unit": "ratio",
+      "timestamp": "2025-05-31T00:41:16.060720"
+    }
+  },
+  "metric_statuses": {
+    "data_duplicate_ratio": "healthy",
+    "missing_value_ratio": "critical",
+    "referential_integrity": "critical",
+    "similarity_variance": "critical",
+    "perfect_similarity_ratio": "healthy",
+    "similarity_uniqueness": "critical",
+    "problem_cluster_ratio": "healthy",
+    "recommendation_diversity": "critical",
+    "popularity_bias": "healthy",
+    "novelty_score": "critical",
+    "recommendation_latency": "healthy",
+    "cache_hit_rate": "critical",
+    "system_error_rate": "healthy"
+  },
+  "alert_summary": {
+    "total_active": 0,
+    "critical": 0,
+    "warning": 0,
+    "total_in_history": 0
+  },
+  "active_alerts": [],
+  "system_configuration": {
+    "total_metrics": 13,
+    "alert_cooldown_seconds": 300,
+    "data_retention_hours": 24,
+    "enhanced_monitoring": true,
+    "system_consistency": "perfect"
+  }
+}
